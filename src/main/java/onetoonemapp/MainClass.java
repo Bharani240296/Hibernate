@@ -25,7 +25,7 @@ public class MainClass extends HttpServlet {
         long pincode=Long.parseLong(req.getParameter("pin"));
         String city=req.getParameter("adcity");
         String area=req.getParameter("area");
-        Address address=new Address();git
+        Address address=new Address();
         address.setArea(area);
         address.setCity(city);
         address.setHousenumber(houseno);
